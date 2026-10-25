@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آکادمی هوش مصنوعی</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== Header / Navbar ===== -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>آکادمی هوش مصنوعی</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home">خانه</a>
+                <a href="#courses">دوره‌ها</a>
+                <a href="#features">مزایا</a>
+                <a href="#contact">تماس</a>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <span class="badge">🚀 آینده را امروز یاد بگیر</span>
+                <h1>به دنیای <span class="highlight">هوش مصنوعی</span> خوش آمدید</h1>
+                <p>
+                    با آکادمی هوش مصنوعی، از صفر تا حرفه‌ای در حوزه‌های
+                    Deep Learning، Machine Learning و AI قدم بردارید.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> مشاهده دوره‌ها
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-phone"></i> تماس با ما
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>+۵۰۰</h3>
+                        <p>دانشجوی موفق</p>
+                    </div>
+                    <div class="stat">
+                        <h3>+۳</h3>
+                        <p>دوره تخصصی</p>
+                    </div>
+                    <div class="stat">
+                        <h3>۹۸٪</h3>
+                        <p>رضایت دانشجویان</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80" alt="هوش مصنوعی">
+                <div class="floating-card card-1">
+                    <i class="fas fa-robot"></i>
+                    <span>AI</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-chart-line"></i>
+                    <span>ML</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-network-wired"></i>
+                    <span>DL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Courses Section ===== -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">دوره‌های تخصصی</span>
+                <h2>مسیر یادگیری خود را انتخاب کنید</h2>
+                <p>دوره‌های حرفه‌ای با تمرکز بر پروژه‌های عملی و کاربردی</p>
+            </div>
+
+            <div class="courses-grid">
+                <!-- Course 1 -->
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>هوش مصنوعی (AI)</h3>
+                    <p>
+                        آشنایی با مفاهیم پایه هوش مصنوعی، الگوریتم‌های جستجو،
+                        سیستم‌های خبره و کاربردهای واقعی AI.
+                    </p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> مبانی و مفاهیم پایه</li>
+                        <li><i class="fas fa-check"></i> الگوریتم‌های جستجو</li>
+                        <li><i class="fas fa-check"></i> پروژه عملی پایان دوره</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-course">اطلاعات بیشتر</a>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="course-card featured">
+                    <span class="tag">پرطرفدار</span>
+                    <div class="course-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>یادگیری ماشین (Machine Learning)</h3>
+                    <p>
+                        آموزش کامل الگوریتم‌های یادگیری ماشین، رگرسیون،
+                        دسته‌بندی و کار با کتابخانه‌های Scikit-learn.
+                    </p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> رگرسیون و دسته‌بندی</li>
+                        <li><i class="fas fa-check"></i> Scikit-learn و Pandas</li>
+                        <li><i class="fas fa-check"></i> پروژه‌های واقعی</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-course">اطلاعات بیشتر</a>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>یادگیری عمیق (Deep Learning)</h3>
+                    <p>
+                        ورود به دنیای شبکه‌های عصبی، CNN، RNN و آموزش
+                        مدل‌های عمیق با TensorFlow و PyTorch.
+                    </p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> شبکه‌های عصبی</li>
+                        <li><i class="fas fa-check"></i> CNN و RNN</li>
+                        <li><i class="fas fa-check"></i> TensorFlow و PyTorch</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-course">اطلاعات بیشتر</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Features Section ===== -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">چرا ما؟</span>
+                <h2>مزایای آکادمی هوش مصنوعی</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>آموزش عملی</h3>
+                    <p>تمرکز بر پروژه‌های واقعی و کاربردی، نه فقط تئوری</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fas fa-certificate"></i>
+                    <h3>مدرک معتبر</h3>
+                    <p>اعطای مدرک پایان دوره برای دانشجویان موفق</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fas fa-headset"></i>
+                    <h3>پشتیبانی دائمی</h3>
+                    <p>پاسخ به سوالات و رفع اشکال در طول دوره</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fas fa-infinity"></i>
+                    <h3>دسترسی همیشگی</h3>
+                    <p>ویدیوهای دوره برای همیشه در اختیار شماست</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">ارتباط با ما</span>
+                <h2>آماده شروع هستید؟</h2>
+                <p>برای ثبت‌نام و مشاوره رایگان با ما در تماس باشید</p>
+            </div>
+            <div class="contact-grid">
+                <a href="tel:09361256199" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>تماس تلفنی</h3>
+                    <p>09361256199</p>
+                </a>
+                <a href="mailto:mohamadhoseinmishan@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>ایمیل</h3>
+                    <p>mohamadhoseinmishan@gmail.com</p>
+                </a>
+                <a href="https://t.me/hhdhbshdq3665" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>تلگرام</h3>
+                    <p>@hhdhbshdq3665</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <i class="fas fa-brain"></i>
+                <span>آکادمی هوش مصنوعی</span>
+            </div>
+            <p>© ۱۴۰۴ - تمامی حقوق محفوظ است | آکادمی هوش مصنوعی</p>
+            <div class="footer-social">
+                <a href="https://t.me/hhdhbshdq3665" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="mailto:mohamadhoseinmishan@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:09361256199"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle menu for mobile
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+              </html>
